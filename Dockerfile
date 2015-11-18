@@ -6,5 +6,5 @@ RUN apt-get update \
   && curl -sL https://github.com/interconnectit/Search-Replace-DB/archive/master.zip > master.zip \
   && unzip master.zip && rm -f master.zip && mv *-master master
 
-CMD ["php-fpm"]
+
 
